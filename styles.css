@@ -1,0 +1,743 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#grid {
+  display: grid;
+  grid-template-columns: repeat(16, 36px);
+  grid-template-rows: repeat(21, 36px);
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  background-color: #030214;
+}
+
+.cell-A {
+  background: #030214;
+}
+.cell-8 {
+  background: #928566;
+}
+.cell-9 {
+  background: #9e825c;
+}
+.cell-10 {
+  background: #292835;
+}
+.cell-23 {
+  background: #989477;
+}
+.cell-24 {
+  background: #eece94;
+}
+.cell-25 {
+  background: #dac792;
+}
+.cell-26 {
+  background: #b19e6a;
+}
+.cell-27 {
+  background: #d9bd8c;
+}
+.cell-28 {
+  background: #544932;
+}
+.cell-36 {
+  background: #a1c3d4;
+}
+.cell-37 {
+  background: #a0acbb;
+}
+.cell-38 {
+  background: #c6bee0;
+}
+.cell-39 {
+  background: #719ece;
+}
+.cell-40 {
+  background: #346184;
+}
+.cell-41 {
+  background: #ab9173;
+}
+.cell-42 {
+  background: #888c70;
+}
+.cell-43 {
+  background: #a58e65;
+}
+.cell-44 {
+  background: #171416;
+}
+.cell-51 {
+  background: #bbccee;
+}
+.cell-52 {
+  background: #9cbed9;
+}
+.cell-53 {
+  background: #9abbce;
+}
+.cell-54 {
+  background: #7399c4;
+}
+.cell-55 {
+  background: #749ec7;
+}
+.cell-56 {
+  background: #7092ba;
+}
+.cell-57 {
+  background: #355160;
+}
+.cell-58 {
+  background: #a99a74;
+}
+.cell-59 {
+  background: #473725;
+}
+.cell-60 {
+  background: #231c12;
+}
+.cell-66 {
+  background: #a0c2d8;
+}
+.cell-67 {
+  background: #98aec3;
+}
+.cell-68 {
+  background: #9ab5d1;
+}
+.cell-69 {
+  background: #517599;
+}
+.cell-70 {
+  background: #7898c7;
+}
+.cell-71 {
+  background: #7290ad;
+}
+.cell-72 {
+  background: #6c89b4;
+}
+.cell-73 {
+  background: #274058;
+}
+.cell-74 {
+  background: #021016;
+}
+.cell-75 {
+  background: #444238;
+}
+.cell-76 {
+  background: #453c30;
+}
+.cell-82 {
+  background: #f6e2df;
+}
+.cell-83 {
+  background: #e5d5c5;
+}
+.cell-84 {
+  background: #e6cbcd;
+}
+.cell-85 {
+  background: #6987b5;
+}
+.cell-86 {
+  background: #2b4662;
+}
+.cell-87 {
+  background: #265586;
+}
+.cell-88 {
+  background: #24425e;
+}
+.cell-89 {
+  background: #1f3853;
+}
+.cell-90 {
+  background: #04141c;
+}
+.cell-91 {
+  background: #0d0c0a;
+}
+.cell-92 {
+  background: #3a3626;
+}
+.cell-98 {
+  background: #d2b295;
+}
+.cell-99 {
+  background: #e9cabe;
+}
+.cell-100 {
+  background: #d6bd9f;
+}
+.cell-101 {
+  background: #eec69f;
+}
+.cell-102 {
+  background: #433d3d;
+}
+.cell-103 {
+  background: #1a0900;
+}
+.cell-104 {
+  background: #1a1f26;
+}
+.cell-105 {
+  background: #1f191b;
+}
+.cell-106 {
+  background: #202a41;
+}
+.cell-107 {
+  background: #1d1d28;
+}
+.cell-108 {
+  background: #514739;
+}
+.cell-109 {
+  background: #1d0e10;
+}
+.cell-114 {
+  background: #403c32;
+}
+.cell-115 {
+  background: #bfa38d;
+}
+.cell-116 {
+  background: #caaf9e;
+}
+.cell-117 {
+  background: #75584f;
+}
+.cell-118 {
+  background: #46352c;
+}
+.cell-119 {
+  background: #21140e;
+}
+.cell-120 {
+  background: #2a2f42;
+}
+.cell-121 {
+  background: #1d0e0b;
+}
+.cell-122 {
+  background: #123b57;
+}
+.cell-123 {
+  background: #060513;
+}
+.cell-124 {
+  background: #69543c;
+}
+.cell-125 {
+  background: #3f3d30;
+}
+.cell-126 {
+  background: #050412;
+}
+.cell-130 {
+  background: #f8cdd1;
+}
+.cell-131 {
+  background: #af8866;
+}
+.cell-132 {
+  background: #b99d87;
+}
+.cell-133 {
+  background: #7e6755;
+}
+.cell-134 {
+  background: #cfad90;
+}
+.cell-135 {
+  background: #614533;
+}
+.cell-136 {
+  background: #28211e;
+}
+.cell-137 {
+  background: #111518;
+}
+.cell-138 {
+  background: #243753;
+}
+.cell-139 {
+  background: #000307;
+}
+.cell-140 {
+  background: #e9ce94;
+}
+.cell-141 {
+  background: #695c38;
+}
+.cell-146 {
+  background: #f4c8cc;
+}
+.cell-147 {
+  background: #8b6648;
+}
+.cell-148 {
+  background: #d6a782;
+}
+.cell-149 {
+  background: #e0b999;
+}
+.cell-150 {
+  background: #82664f;
+}
+.cell-151 {
+  background: #4d3628;
+}
+.cell-152 {
+  background: #553e36;
+}
+.cell-153 {
+  background: #1f0c05;
+}
+.cell-154 {
+  background: #0e0d0f;
+}
+.cell-155 {
+  background: #0c0e0e;
+}
+.cell-156 {
+  background: #7a604c;
+}
+.cell-157 {
+  background: #bdb088;
+}
+.cell-162 {
+  background: #d3acb0;
+}
+.cell-163 {
+  background: #8d6a57;
+}
+.cell-164 {
+  background: #d6b194;
+}
+.cell-165 {
+  background: #e6c1ae;
+}
+.cell-166 {
+  background: #6c574e;
+}
+.cell-167 {
+  background: #533928;
+}
+.cell-168 {
+  background: #311e10;
+}
+.cell-169 {
+  background: #25161e;
+}
+.cell-170 {
+  background: #070510;
+}
+.cell-171 {
+  background: #07050f;
+}
+.cell-172 {
+  background: #f0d189;
+}
+.cell-173 {
+  background: #cbbb99;
+}
+.cell-174 {
+  background: #839699;
+}
+.cell-178 {
+  background: #d2b7a4;
+}
+.cell-179 {
+  background: #c64a33ff;
+}
+.cell-180 {
+  background: #9f5f49;
+}
+.cell-181 {
+  background: #997c6b;
+}
+.cell-182 {
+  background: #715745;
+}
+.cell-183 {
+  background: #8d7c72;
+}
+.cell-184 {
+  background: #554838;
+}
+.cell-185 {
+  background: #13090e;
+}
+.cell-186 {
+  background: #040811;
+}
+.cell-187 {
+  background: #15071b;
+}
+.cell-188 {
+  background: #f4c67dff;
+}
+.cell-189 {
+  background: #d9cdaaff;
+}
+.cell-190 {
+  background: #3c3e47ff;
+}
+.cell-195 {
+  background: #e5bea8ff;
+}
+.cell-196 {
+  background: #907569ff;
+}
+.cell-197 {
+  background: #948171ff;
+}
+.cell-198 {
+  background: #837054ff;
+}
+.cell-199 {
+  background: #443d32ff;
+}
+.cell-200 {
+  background: #54473aff;
+}
+.cell-201 {
+  background: #372123ff;
+}
+.cell-202 {
+  background: #646966ff;
+}
+.cell-203 {
+  background: #4e4f49ff;
+}
+.cell-204 {
+  background: #e7bd76ff;
+}
+.cell-205 {
+  background: #72614aff;
+}
+.cell-206 {
+  background: #3d405fff;
+}
+.cell-213 {
+  background: #5f5b52ff;
+}
+.cell-214 {
+  background: #78654eff;
+}
+.cell-215 {
+  background: #ddefd4ff;
+}
+.cell-216 {
+  background: #f6e5e2ff;
+}
+.cell-217 {
+  background: #c7beb5ff;
+}
+.cell-218 {
+  background: #443b32ff;
+}
+.cell-219 {
+  background: #3f3a34ff;
+}
+.cell-220 {
+  background: #d3c697ff;
+}
+.cell-221 {
+  background: #936c40ff;
+}
+.cell-222 {
+  background: #484031ff;
+}
+.cell-223 {
+  background: #253545ff;
+}
+.cell-230 {
+  background: #ece8ddff;
+}
+.cell-231 {
+  background: #a3906dff;
+}
+.cell-232 {
+  background: #515145ff;
+}
+.cell-233 {
+  background: #3b3229ff;
+}
+.cell-234 {
+  background: #393027ff;
+}
+.cell-235 {
+  background: #2b2c24ff;
+}
+.cell-236 {
+  background: #bba06bff;
+}
+.cell-237 {
+  background: #b5a571ff;
+}
+.cell-238 {
+  background: #4b4237ff;
+}
+.cell-239 {
+  background: #9aababff;
+}
+.cell-245 {
+  background: #f5efe5ff;
+}
+.cell-246 {
+  background: #ddb15eff;
+}
+.cell-247 {
+  background: #caa35fff;
+}
+.cell-248 {
+  background: #45403aff;
+}
+.cell-249 {
+  background: #1e1007ff;
+}
+.cell-250 {
+  background: #23150cff;
+}
+.cell-251 {
+  background: #1e150cff;
+}
+.cell-252 {
+  background: #9a8d70ff;
+}
+.cell-253 {
+  background: #a58b60ff;
+}
+.cell-254 {
+  background: #6e7882ff;
+}
+.cell-255 {
+  background: #4d5e6cff;
+}
+.cell-261 {
+  background: #9f8960ff;
+}
+.cell-262 {
+  background: #cbaa5fff;
+}
+.cell-263 {
+  background: #deb575ff;
+}
+.cell-264 {
+  background: #40362cff;
+}
+.cell-265 {
+  background: #56483fff;
+}
+.cell-266 {
+  background: #2c1e15ff;
+}
+.cell-267 {
+  background: #322924ff;
+}
+.cell-268 {
+  background: #1c0e07ff;
+}
+.cell-269 {
+  background: #bca074ff;
+}
+.cell-270 {
+  background: #9aa4a2ff;
+}
+.cell-271 {
+  background: #d9d2a8ff;
+}
+.cell-272 {
+  background: #384963ff;
+}
+.cell-276 {
+  background: #979077ff;
+}
+.cell-277 {
+  background: #9e8660ff;
+}
+.cell-278 {
+  background: #a58659ff;
+}
+.cell-279 {
+  background: #cea866ff;
+}
+.cell-280 {
+  background: #998056ff;
+}
+.cell-281 {
+  background: #534031ff;
+}
+.cell-282 {
+  background: #26110aff;
+}
+.cell-283 {
+  background: #1b0e0dff;
+}
+.cell-284 {
+  background: #253a55ff;
+}
+.cell-285 {
+  background: #bfc9baff;
+}
+.cell-286 {
+  background: #9ea8abff;
+}
+.cell-287 {
+  background: #a9aea4ff;
+}
+.cell-288 {
+  background: #0e1619ff;
+}
+.cell-292 {
+  background: #948470ff;
+}
+.cell-293 {
+  background: #b69765ff;
+}
+.cell-294 {
+  background: #aa9a69ff;
+}
+.cell-295 {
+  background: #aa9977ff;
+}
+.cell-296 {
+  background: #aa8166ff;
+}
+.cell-297 {
+  background: #443427ff;
+}
+.cell-298 {
+  background: #493e35ff;
+}
+.cell-299 {
+  background: #483730ff;
+}
+.cell-300 {
+  background: #0b0d02ff;
+}
+.cell-301 {
+  background: #81a0b2ff;
+}
+.cell-302 {
+  background: #1c1f30ff;
+}
+.cell-308 {
+  background: #b39b6cff;
+}
+.cell-309 {
+  background: #e2ae66ff;
+}
+.cell-310 {
+  background: #93885fff;
+}
+.cell-311 {
+  background: #918265ff;
+}
+.cell-312 {
+  background: #988e6bff;
+}
+.cell-313 {
+  background: #554633ff;
+}
+.cell-314 {
+  background: #312819ff;
+}
+.cell-315 {
+  background: #37261fff;
+}
+.cell-316 {
+  background: #1b1b15ff;
+}
+.cell-323 {
+  background: #c59953ff;
+}
+.cell-324 {
+  background: #b99a56ff;
+}
+.cell-325 {
+  background: #93704bff;
+}
+.cell-326 {
+  background: #7e6b4aff;
+}
+.cell-327 {
+  background: #7a6d4eff;
+}
+.cell-328 {
+  background: #796646ff;
+}
+.cell-329 {
+  background: #534633ff;
+}
+.cell-330 {
+  background: #3a2c1fff;
+}
+.cell-331 {
+  background: #433524ff;
+}
+.cell-332 {
+  background: #4d4538ff;
+}
+.cell-333 {
+  background: #111019ff;
+}
+
+.cell: hover {
+  width: 300px;
+  height: 300px;
+  transform: rotate(180deg);
+}
+
+@-webkit-keyframes cell {
+  50% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@keyframes cell {
+  50% {
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  to {
+    background-color: black;
+  }
+}
+
+.cell {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.cell:hover,
+.cell:focus,
+.cell:active {
+  -webkit-animation-name: cell;
+  animation-name: cell;
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
